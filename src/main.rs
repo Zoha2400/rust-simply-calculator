@@ -29,5 +29,5 @@ fn main()
     else if symb.trim() == "-"{println!("{}", (a - b))}
     else if symb.trim() == "*"{println!("{}", (a * b))}
     else if symb.trim() == "/"{println!("{}", (a / b))}
-    else{eprintln!("Choose an existed operation!")};
+    else{println!("Choose an existed operation!")};
 }   
